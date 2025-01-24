@@ -72,12 +72,19 @@ button:focus-visible {
   padding: 1em;
   background-color: #f5f5f5;
   border-radius: 4px;
+  width: 300px;
+  height: 500px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.articleCard img{
+  width: 80%;
+  height: 200px;
 }
 
 .articleList{
   display: flex;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  flex-wrap: wrap;
   gap: 1em;
   margin: 1em 0;
 }
